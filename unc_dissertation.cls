@@ -807,7 +807,8 @@
 	\my@mainmatterfalse%
 	\my@appendixfalse%
 	\my@backmatterfalse%
-  \cleardoublepage\pagenumbering{roman}}
+%  \cleardoublepage\pagenumbering{roman}}
+  \pagenumbering{roman}} % In theory this gives roman page numbers to the front matter.
   
 \newcommand\mainmatter{%
 	\my@frontmatterfalse%
